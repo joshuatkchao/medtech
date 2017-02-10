@@ -63,7 +63,7 @@ a{
     text-align: center;
     background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../play.jpg', sizingMethod='scale');
-    height: 300px;
+    height: 400px;
     width: 100%;
     margin-bottom: 3em;
     display: table;
@@ -108,7 +108,7 @@ td{
 .bigButton {
   display:block;
   max-width:200px;
-  margin:3em auto 0 auto;
+  margin:2em auto 3em auto;
   padding:1em;
   text-align: center;
   text-decoration: none;
