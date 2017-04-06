@@ -1,4 +1,4 @@
-# innovation-at-play
-Landing page for Innovation at Play
+# Medtech
+Landing page for Med Tech Event
 
-https://aido179.github.io/innovation-at-play/
+https://aido179.github.io/medtech/
