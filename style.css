@@ -136,7 +136,13 @@ td{
   color:#000;
   text-decoration: none;
 }
-
+.footer-images{
+  text-align: center;
+}
+.footer-images img{
+  max-width:200px;
+  margin:2em 1em;
+}
 /*==========  Non-Mobile First Method  ==========*/
 
     /* Small Devices, Tablets */
