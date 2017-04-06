@@ -1,3 +1,8 @@
+html{
+  border:0;
+  margin:0;
+  padding:0;
+}
 body{
   font-family: 'Merriweather', serif;
   color:#4e4d4a;
@@ -10,7 +15,14 @@ body{
 h1, h2, h3, h4{
   font-family: 'Lato', sans-serif;
 }
-
+h2{
+  text-align: center;
+display: block;
+color: #fff;
+background-color: #1db5a9;
+border: solid #126f68 3px;
+padding: 1em;
+}
 p{
   font-weight: lighter;
   line-height: 1.8em;
@@ -59,11 +71,11 @@ a{
 }
 
 .banner {
-    background: transparent url('play.jpg') 0 0 no-repeat fixed;
+    background: transparent url('img/stock1.jpeg') center center no-repeat fixed;
     text-align: center;
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../play.jpg', sizingMethod='scale');
-    height: 400px;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/stock1.jpg', sizingMethod='scale');
+    height: 600px;
     width: 100%;
     margin-bottom: 3em;
     display: table;
@@ -74,12 +86,20 @@ a{
     vertical-align: middle;
     margin-bottom: 0;
     font-size: 2em;
-    color: white;
+    color: #525252;
     font-weight: 500;
     text-shadow: 0 1px 1px black;
 }
 .banner-head a{
   font-size:1rem;
+}
+.header-images{
+  text-align: center;
+  width:100%;
+}
+.header-images img{
+  max-width:150px;
+  margin:0.2em 1em;
 }
 .content{
   clear:both;
@@ -118,7 +138,7 @@ td{
 }
 
 .bigButton {
-    background: rgb(66, 184, 221);
+    background: #1db5a9;
 }
 .bigButton:hover {
     background: #1b7996;
@@ -161,6 +181,9 @@ td{
       .navbar{
         display:none;
         height:0px;
+      }
+      .banner-head {
+          font-size: 1em;
       }
     }
 
